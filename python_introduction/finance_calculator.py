@@ -11,5 +11,5 @@ interest = annual_savings * 0.05
 projected_savings = monthly_savings * 12 + (monthly_savings * 12 * 0.05)
 
 # Display the results
-print(f"Your monthly savings are ${round(monthly_savings)}.")
-print(f"Projected savings after one year, with interest, is: ${round(projected_savings)}.")
+print(f"Your monthly savings are ${int(monthly_savings)}.")
+print(f"Projected savings after one year, with interest, is: ${int(projected_savings)}.")
