@@ -1,10 +1,10 @@
 # Ask the user for task details
 task = input("Enter your task: ")
-priority = input("Priority (high/medium/low): ")
+Priority = input("Priority (high/medium/low): ")
 time_bound = input("Is it time-bound? (yes/no): ")
 
 # Process based on priority using match-case
-match priority:
+match Priority:
     case "high":
         message = f"'{task}' is a high priority task"
     case "medium":
